@@ -9,13 +9,30 @@ add address=127.0.0.1 name=pubgmobile.com comment=blocked-domain
 add address=127.0.0.1 name=mobilelegends.com comment=blocked-domain
 add address=127.0.0.1 name=m.mobilelegends.com comment=blocked-domain
 
+# discordapp
+add address=127.0.0.1 name=dis.gd comment=blocked-domain
+add address=127.0.0.1 name=discord.co comment=blocked-domain
 add address=127.0.0.1 name=discord.com comment=blocked-domain
-add address=127.0.0.1 name=discordapp.com comment=blocked-domain
+add address=127.0.0.1 name=discord.design comment=blocked-domain
+add address=127.0.0.1 name=discord.dev comment=blocked-domain
 add address=127.0.0.1 name=discord.gg comment=blocked-domain
-add address=127.0.0.1 name=discord.app.com comment=blocked-domain
-add address=127.0.0.1 name=discordapp.net comment=blocked-domain
+add address=127.0.0.1 name=discord.gift comment=blocked-domain
+add address=127.0.0.1 name=discord.gifts comment=blocked-domain
 add address=127.0.0.1 name=discord.media comment=blocked-domain
+add address=127.0.0.1 name=discord.new comment=blocked-domain
+add address=127.0.0.1 name=discord.store comment=blocked-domain
+add address=127.0.0.1 name=discord.tools comment=blocked-domain
+add address=127.0.0.1 name=discord-activities.com comment=blocked-domain
+add address=127.0.0.1 name=discordactivities.com comment=blocked-domain
+add address=127.0.0.1 name=discordapp.com comment=blocked-domain
+add address=127.0.0.1 name=discordapp.net comment=blocked-domain
+add address=127.0.0.1 name=discordmerch.com comment=blocked-domain
+add address=127.0.0.1 name=discordpartygames.com comment=blocked-domain
+add address=127.0.0.1 name=discordsays.com comment=blocked-domain
 add address=127.0.0.1 name=discordstatus.com comment=blocked-domain
+add address=127.0.0.1 name=discordapp.io comment=blocked-domain
+add address=127.0.0.1 name=discordcdn.com comment=blocked-domain
+
 add address=127.0.0.1 name=lancache.steamcontent.com comment=blocked-domain
 add address=127.0.0.1 name=dist.blizzard.com comment=blocked-domain
 add address=127.0.0.1 name=blizzard.vo.llnwd.net comment=blocked-domain
@@ -26,7 +43,7 @@ add address=127.0.0.1 name=level3.blizzard.com comment=blocked-domain
 add address=127.0.0.1 name=nydus.battle.net comment=blocked-domain
 add address=127.0.0.1 name=edge.blizzard.top.com comment=blocked-domaincast.net
 add address=127.0.0.1 name=cdn.blizzard.com comment=blocked-domain
-add address=127.0.0.1 regexp=*.cdn.blizzard.com comment=blocked-domain
+add address=127.0.0.1 regexp="*.cdn.blizzard.com" comment=blocked-domain
 
 # MICROSOFT
 add address=127.0.0.1 name=forefrontdl.microsoft.com comment=blocked-domain
@@ -49,11 +66,11 @@ add address=127.0.0.1 name=amupdatedl2.microsoft.com comment=blocked-domain
 add address=127.0.0.1 name=amupdatedl3.microsoft.com comment=blocked-domain
 add address=127.0.0.1 name=amupdatedl4.microsoft.com comment=blocked-domain
 add address=127.0.0.1 name=amupdatedl5.microsoft.com comment=blocked-domain
-add address=127.0.0.1 regexp=*.windowsupdate.com comment=blocked-domain
-add address=127.0.0.1 regexp=*.dl.delivery.mp.microsoft.com comment=blocked-domain
-add address=127.0.0.1 regexp=*.microsoft.com comment=blocked-domain
-add address=127.0.0.1 regexp=*.update.microsoft.com comment=blocked-domain
-add address=127.0.0.1 regexp=*.do.dsp.mp.microsoft.com comment=blocked-domain
+add address=127.0.0.1 regexp="*.windowsupdate.com" comment=blocked-domain
+add address=127.0.0.1 regexp="*.dl.delivery.mp.microsoft.com" comment=blocked-domain
+add address=127.0.0.1 regexp="*.microsoft.com" comment=blocked-domain
+add address=127.0.0.1 regexp="*.update.microsoft.com" comment=blocked-domain
+add address=127.0.0.1 regexp="*.do.dsp.mp.microsoft.com" comment=blocked-domain
 
 # NETFLIX
 add address=127.0.0.1 name=netflix.com comment=blocked-domain
@@ -81,6 +98,8 @@ add address=127.0.0.1 name=nflxso.net comment=blocked-domain
 add address=127.0.0.1 name=nflxvideo.net comment=blocked-domain
 add address=127.0.0.1 regexp="^(.*.)\?.netflix.com" comment=blocked-domain
 
+add address=127.0.0.1 regexp="^(.*.)\?slotindo.shop" comment=blocked-domain
+add address=127.0.0.1 regexp="^(.*.)\?tcdn.me" comment=blocked-domain
 add address=127.0.0.1 name=assets1.xboxlive.com comment=blocked-domain
 add address=127.0.0.1 name=assets2.xboxlive.com comment=blocked-domain
 add address=127.0.0.1 name=xbox-mbr.xboxlive.com comment=blocked-domain
@@ -89,10 +108,9 @@ add address=127.0.0.1 name=xvcf1.xboxlive.com comment=blocked-domain
 add address=127.0.0.1 name=xvcf2.xboxlive.com comment=blocked-domain
 add address=127.0.0.1 name=d1.xboxlive.com comment=blocked-domain
 add address=127.0.0.1 name=croxyproxy.com comment=blocked-domain
-add address=127.0.0.1 regexp="^(.*.)\?slotindo.shop" comment=blocked-domain
-add address=127.0.0.1 regexp="^(.*.)\?tcdn.me" comment=blocked-domain
+
 add address=127.0.0.1 name=pinterest.com comment=blocked-domain
-add address=127.0.0.1 regexp=*.pinterest.com comment=blocked-domain
+add address=127.0.0.1 regexp="*.pinterest.com" comment=blocked-domain
 add address=127.0.0.1 name=konami.com comment=blocked-domain
 add address=127.0.0.1 regexp="^.+(konami.com).*S" comment=blocked-domain
 add address=127.0.0.1 name=konami.app.com comment=blocked-domain
@@ -241,3 +259,16 @@ add address=127.0.0.1 name=ttlivecdn.com.c.worldfcdn.com comment=blocked-domain
 add address=127.0.0.1 name=ttoversea.net comment=blocked-domain
 add address=127.0.0.1 name=ttoverseaus.net comment=blocked-domain
 add address=127.0.0.1 name=ttwstatic.com comment=blocked-domain
+
+# WhatsUp
+add address=127.0.0.1 name=wa.me comment=blocked-domain
+add address=127.0.0.1 name=whatsappbrand.com comment=blocked-domain
+add address=127.0.0.1 name=whatsapp.cc comment=blocked-domain
+add address=127.0.0.1 name=whatsapp.com comment=blocked-domain
+add address=127.0.0.1 name=whatsapp.info comment=blocked-domain
+add address=127.0.0.1 name=whatsapp.net comment=blocked-domain
+add address=127.0.0.1 name=whatsapp.org comment=blocked-domain
+add address=127.0.0.1 name=whatsapp-plus.info comment=blocked-domain
+add address=127.0.0.1 name=whatsapp-plus.me comment=blocked-domain
+add address=127.0.0.1 name=whatsapp-plus.net comment=blocked-domain
+add address=127.0.0.1 name=whatsapp.tv comment=blocked-domain
